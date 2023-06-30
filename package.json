@@ -1,0 +1,46 @@
+{
+  "name": "swing-css-reset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint:js": "eslint src --fix",
+    "lint:css": "stylelint src --fix",
+    "format": "prettier --write",
+    "prepare": "husky install",
+    "scss:sorter": "postcss --config ./src ./src/**/*.scss --replace"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^8.4.24",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-scss": "^4.0.6",
+    "postcss-sort-media-queries": "^5.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "@types/eslint": "^8.40.2",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "lightningcss": "^1.21.1",
+    "lint-staged": "^13.2.3",
+
+    "prettier": "^2.8.8",
+    "sass": "^1.63.6",
+    "stylelint": "^15.9.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-sass-guidelines": "^10.0.0",
+    "stylelint-order": "^6.0.3",
+    "vite": "^4.3.9",
+    "vite-plugin-lightningcss": "^0.0.5"
+  }
+}
