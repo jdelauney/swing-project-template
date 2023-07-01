@@ -1,5 +1,4 @@
 // vite.config.ts
-import type, { UserConfig } from 'vitest/config';
 import { defineConfig } from 'vitest/config';
 import lightningcss from 'vite-plugin-lightningcss';
 
@@ -30,5 +29,9 @@ export default defineConfig({
       reportsDirectory: './reports/tests/coverage',
       reporter: ['text', 'json', 'html'],
     },
+    watch: false,
+    globals: true,
+    threads: false,
+    reporter: 'verbose',
   },
 });

@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "test": "vitest",
+    "test:silent": "vitest --silent --passWithNoTests",
     "test:ui": "vitest run --ui",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest run --coverage",
