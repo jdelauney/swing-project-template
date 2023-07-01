@@ -2,11 +2,11 @@
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
 
-# Extandable HTML, CSS/SCSS, JS/TS project - Boilerplate
+# Extendable HTML, CSS/SCSS, JS/TS project - Boilerplate
 
-It is my attempt to create an ecological "project template" starter kit to gain time and contibute to save the planet.
+It is my attempt to create an ecological "project template" starter kit to gain time and contribute to save the planet.
 
-I want to have an easly customizable and extandable structure for addapting it to the final project.
+I want to have an easily customizable and extendable structure for adapting it to the final project.
 
 
 
