@@ -52,6 +52,9 @@ devDependencies:
   eslint-plugin-import:
     specifier: ^2.27.5
     version: 2.27.5(@typescript-eslint/parser@5.60.1)(eslint@8.44.0)
+  eslint-plugin-jsonc:
+    specifier: ^2.9.0
+    version: 2.9.0(eslint@8.44.0)
   eslint-plugin-prettier:
     specifier: ^4.2.1
     version: 4.2.1(eslint-config-prettier@8.8.0)(eslint@8.44.0)(prettier@2.8.8)
@@ -1794,6 +1797,18 @@ packages:
       - supports-color
     dev: true
 
+  /eslint-plugin-jsonc@2.9.0(eslint@8.44.0):
+    resolution: {integrity: sha512-RK+LeONVukbLwT2+t7/OY54NJRccTXh/QbnXzPuTLpFMVZhPuq1C9E07+qWenGx7rrQl0kAalAWl7EmB+RjpGA==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: '>=6.0.0'
+    dependencies:
+      '@eslint-community/eslint-utils': 4.4.0(eslint@8.44.0)
+      eslint: 8.44.0
+      jsonc-eslint-parser: 2.3.0
+      natural-compare: 1.4.0
+    dev: true
+
   /eslint-plugin-n@16.0.1(eslint@8.44.0):
     resolution: {integrity: sha512-CDmHegJN0OF3L5cz5tATH84RPQm9kG+Yx39wIqIwPR2C0uhBGMWfbbOtetR83PQjjidA5aXMu+LEFw1jaSwvTA==}
     engines: {node: '>=16.0.0'}
@@ -2629,6 +2644,16 @@ packages:
     hasBin: true
     dependencies:
       minimist: 1.2.8
+    dev: true
+
+  /jsonc-eslint-parser@2.3.0:
+    resolution: {integrity: sha512-9xZPKVYp9DxnM3sd1yAsh/d59iIaswDkai8oTxbursfKYbg/ibjX0IzFt35+VZ8iEW453TVTXztnRvYUQlAfUQ==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dependencies:
+      acorn: 8.9.0
+      eslint-visitor-keys: 3.4.1
+      espree: 9.6.0
+      semver: 7.5.3
     dev: true
 
   /jsonc-parser@3.2.0:
