@@ -7,10 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint:js": "eslint src --fix",
-    "lint:css": "stylelint src --fix",
+    "lint:scss": "pnpx stylelint **/*.scss --max-warnings 0 --fix",
     "format": "prettier --write",
     "prepare": "husky install",
-    "scss:sorter": "postcss --config ./src ./src/**/*.scss --replace"
+    "scss:sorter": "postcss --config ./src ./src/**/*.scss --replace",
+    "test": "echo \"Warning: no test \" && exit 0"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +26,7 @@
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
     "@types/eslint": "^8.40.2",
-    "eslint": "^8.43.0",
+    "eslint": "^8.44.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.27.5",
@@ -33,7 +34,6 @@
     "husky": "^8.0.3",
     "lightningcss": "^1.21.1",
     "lint-staged": "^13.2.3",
-
     "prettier": "^2.8.8",
     "sass": "^1.63.6",
     "stylelint": "^15.9.0",
