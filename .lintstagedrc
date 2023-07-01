@@ -1,5 +1,5 @@
 {
     "src/**/*.+(js|ts|json)":["eslint --fix"],
     "src/**/*.scss":["stylelint --max-warnings 0 --fix"],
-    "src/**/*.+(js|ts|json|html|scss|css|md)":["prettier --write", "sonarlint --html-report ./reports/sonarlint-report.html --charset utf8"]
+    "src/**/*.+(js|ts|json|html|scss|css|md)":["prettier --write"]
 }

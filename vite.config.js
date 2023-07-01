@@ -13,15 +13,22 @@ export default defineConfig({
     postcss: {
       plugins: [
         require('postcss-flexbugs-fixes')({
-          bug6: false
+          bug6: false,
         }),
         require('postcss-sort-media-queries')({
           sort: 'mobile-first',
           configuration: {
             unitlessMqAlwaysFirst: true,
-          }
+          },
         }),
-      ]
+      ],
     },
-  }
+  },
+  test: {
+    coverage: {
+      provider: 'v8',
+      reportsDirectory: './reports/tests/coverage',
+      reporter: ['text', 'json', 'html'],
+    },
+  },
 });

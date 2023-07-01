@@ -2,3 +2,6 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx --no-install lint-staged
+
+# npx --no-install sonarlint --src src/**/* --exclude src/**/__tests__/* --html-report reports/sonarlint-report.html
+npm run sonarlint
