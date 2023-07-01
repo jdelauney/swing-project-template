@@ -4,3 +4,5 @@
 /dist/
 /.sonarlint/
 /reports/
+/src/node_modules/.vitest/results.json
+!/src/node_modules/
