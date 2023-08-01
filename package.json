@@ -44,7 +44,7 @@
     "eslint-plugin-jsonc": "^2.9.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
-    "lightningcss": "^1.21.1",
+    "lightningcss": "^1.21.5",
     "lint-staged": "^13.2.3",
     "prettier": "^2.8.8",
     "sass": "^1.63.6",
