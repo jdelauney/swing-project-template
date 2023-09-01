@@ -30,7 +30,7 @@
     "postcss-sort-media-queries": "^5.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.6",
+    "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.6.6",
     "@types/eslint": "^8.40.2",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
